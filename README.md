@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+Code-Flicker ⚡
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Code-Flicker is a collaborative real-time code editor that allows multiple users to work together seamlessly. Create or join rooms and instantly see live code changes with synchronization across users. Perfect for pair programming, live coding sessions, or team code reviews.
 
-## Available Scripts
+<!-- Add a screenshot link -->
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔥 Features:-
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Room Management: Create, join, and leave rooms effortlessly
 
-### `npm test`
+Real-Time Code Synchronization: Instant updates as users type code in the shared editor
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User-Friendly Interface: Intuitive design with clear room and user management
 
-### `npm run build`
+Room ID Sharing: Easily copy and share room IDs for others to join
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Live Notifications: Get instant feedback when users join, leave, or create rooms with Toastify notifications
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+User Avatars & Names: Personalize your identity with avatars and usernames visible to all participants
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Syntax Highlighting: Built-in syntax highlighting for a better coding experience with CodeMirror.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🚀 Tech Stack:-
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend: React, JavaScript
 
-## Learn More
+Styling: CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Code Editor: CodeMirror
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Unique IDs: UUID for room identification
 
-### Code Splitting
+Notifications: Toastify for real-time alerts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Avatar Management: Avatar for user display
 
-### Analyzing the Bundle Size
+🛠️ Installation & Setup:-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone the repository:
+Copy code
+git clone  
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Navigate to the project directory:
+Copy code
+cd code-flicker
 
-### Advanced Configuration
+Install dependencies:
+Copy code
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Run the application:
+Copy code
+npm start
+Open in your browser: The app will run at http://localhost:3000
 
-### Deployment
+📖 How It Works
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Create a Room:
+A user creates a new room, generating a unique ID.
+The user is taken to a shared code editor where they can start typing code.
 
-### `npm run build` fails to minify
+Share the Room ID:
+Copy the room ID and share it with collaborators to invite them into the same session.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Real-Time Collaboration:
+Users joining the room can view and edit the code in real-time, with everyone seeing updates instantly.
+
+Leave Room:
+Any user can leave the room, and the system will notify others in the room.
+
+📸 Screenshots:-
+
+You can include a few screenshots of your project here to showcase key features.
+
+
+![Screenshot 2024-09-12 063413](https://github.com/user-attachments/assets/86bed044-53e4-42fd-a28e-276d5b6f6b50)
+![Screenshot 2024-09-12 063440](https://github.com/user-attachments/assets/85331e5d-f5e7-4504-9446-c02526bc988d)
+![Screenshot 2024-09-12 063523](https://github.com/user-attachments/assets/258e19ae-a87a-4c5e-ad51-eab00e11fae1)
+![Screenshot 2024-09-12 063700](https://github.com/user-attachments/assets/0032fd58-7496-4b03-a9c5-9eac57f1ce72)
+![Screenshot 2024-09-12 063825](https://github.com/user-attachments/assets/2468c23b-9bb6-4b82-ada0-46e887d50e99)
+![Screenshot 2024-09-12 063849](https://github.com/user-attachments/assets/95648efb-e9c8-48a0-a87b-c92e34c0a297)
+![Screenshot 2024-09-12 063916](https://github.com/user-attachments/assets/bd3e28a1-b593-46d8-b7cb-a1b6dd7897c2)
+
+
+💡 Future Enhancements:-
+
+Support for Multiple Programming Languages: Add language selection for different code syntaxes.
+
+Chat Feature: Include real-time chat within rooms for better collaboration.
+
+Authentication: Implement user authentication for secure access and personalized experiences.
+
+Run Code in Real-Time: Enable users to execute their code directly within the editor, supporting multiple languages with real-time output.
